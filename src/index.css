@@ -1,11 +1,13 @@
 @import "tailwindcss";
-.poster{
-    background-image: url(bg.webp);
+.poster {
+    background-image: url("/bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
-}
-.ahmerHero{
-    background-image: url(ahmerbg.jpg);
+  }
+  
+  .ahmerHero {
+    background-image: url("/ahmerbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  

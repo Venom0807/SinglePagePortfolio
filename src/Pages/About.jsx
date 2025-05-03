@@ -1,5 +1,5 @@
 import React from 'react'
-import AHero from '../Components/Common/aHero'
+import AHero from '../Components/Common/AHero'
 import AboutPoster from '../Components/Common/AboutPoster'
 const About = () => {
   return (

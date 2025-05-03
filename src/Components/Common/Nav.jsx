@@ -5,9 +5,9 @@ const Nav = () => {
   return (
     <header class="text-gray-600 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <Link to="/" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
 <img src="ahmer.png" alt="" className='w-35' />
-    </a>
+    </Link>
     <nav class="md:ml-auto flex flex-wrap items-center  justify-center text-black font-[500] gap-10">
       <Link to="/" class="mr-5 hover:text-gray-900 cursor-pointer">Home</Link>
       <Link to="/about" class="mr-5 hover:text-gray-900 cursor-pointer">About</Link>
